@@ -1,0 +1,8 @@
+.footer {
+    list-style-type: none;
+}
+
+ul li.nav-item:hover{
+    background-color: crimson;
+
+}
