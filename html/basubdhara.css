@@ -10,5 +10,7 @@ body
 
 ul li.nav-item:hover{
     background-color: crimson;
-
+}
+.hovereff:hover{
+    color:red
 }
