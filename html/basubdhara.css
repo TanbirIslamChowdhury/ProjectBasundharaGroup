@@ -1,3 +1,9 @@
+body
+{
+    background-image: url("file:///E:/ProjectBasundharaGroup/Image/10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .Corporate_Office{
     list-style-type: none;
 }
