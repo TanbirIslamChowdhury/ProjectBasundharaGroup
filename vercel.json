@@ -1,0 +1,38 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/old-path",
+      "destination": "/new-path",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Custom-Header",
+          "value": "My custom header value"
+        }
+      ]
+    }
+  ],
+  "errorRoutes": [
+    {
+      "statusCode": 404,
+      "destination": "/404.html"
+    },
+    {
+      "statusCode": 500,
+      "destination": "/500.html"
+    }
+  ]
+}
